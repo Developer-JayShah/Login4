@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f3e0e2;
+    background-color: #ff455e6c;
     font-family: 'Noto Sans SC', sans-serif;
 
 }
@@ -96,18 +96,20 @@ h4{
        outline: none;
        cursor: pointer;
        letter-spacing: 5px;
-        
-       
-    
+}
+.btn:hover{
+    background-color: yellowgreen;
 }
 .box2{
     width: 400px;
     height: 400px;
-    background-color: #ff4366;
+    background-image: url('../computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
     margin-top: 10%;
     border-radius: 0 10px 10px 0;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 15px black;
 }
 .box2 h1{
     color: white;
@@ -115,10 +117,12 @@ h4{
     font-size: 35px;
     font-weight: 600;
     margin-top: 65px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.596);
 }
 .box2 p{
     color: white;
     text-align: center;
     font-size: 20px;
     font-weight: 100;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.623);
 }
